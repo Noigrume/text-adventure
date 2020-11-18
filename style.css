@@ -1,0 +1,32 @@
+body {
+    padding: 0%;
+    margin: 0%;
+    background-color: rgb(8, 3, 19);
+    font-family: 'Share Tech Mono', monospace !important;
+    color: rgb(238, 184, 83);
+}
+
+.container {
+    max-width: 700px;
+    font-size: large;
+    color: rgb(238, 184, 83);
+    padding: 35px;
+    margin: 15% auto;
+    border: 1px solid rgb(111, 0, 255)
+}
+
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.btn {
+    padding: 15px;
+    font-size: large;
+    color: rgb(238, 184, 83);
+    background-color: transparent;
+    border: none;
+    font-weight: 500;
+}
